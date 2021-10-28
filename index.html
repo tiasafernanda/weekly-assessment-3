@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OOP's Metaphor</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a>Tiasa Fernanda</a>
+        </div>
+        <div class="header-right">
+          <a href="#inheritance">Inheritance</a>
+          <a href="#polymorphism">Polymorphism</a>
+          <a href="#encapsulation">Encapsulation</a>
+          <a href="#abstraction">Abstraction</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Intro -->
+    <div class="intro">
+      <div>
+        <img src="/assets/img/dancing game-dev.gif" alt="" />
+      </div>
+      <div>
+        <h1>Let's learn about Javascript's OOP in a fun way</h1>
+        <p>
+          So, what is it exactly? <b><i>Object Oriented programming or what we call OOP is a programming paradigm that relies on the concept of classes and objects.</i></b> OOP focuses on the objects that developers want to manipulate
+          rather than the logic required to manipulate them. This approach to programming is well-suited for programs that are large, complex and actively updated or maintained. This includes programs for manufacturing and design, as well
+          as mobile applications; for example, OOP can be used for manufacturing system simulation software. There are 4 pillars of OOP :
+        </p>
+        <ul>
+          <li>• Inheritance</li>
+          <li>• Polymorphism</li>
+          <li>• Encapsulation</li>
+          <li>• Abstraction</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <div>
+        <h1><i>Inheritance</i></h1>
+        <p>
+          Let's talk about our first pillar of OOP, it's called Inheritance. Inheritance allows classes extend attributes and behaviors to child classes and <b><i>inheritance supports reusability.</i></b> If basic attributes and behaviors
+          are defined in a parent class, child classes can be created extending the functionality of the parent class, and adding additional attributes and behaviors. Lets just say it's like your parent and you, like you inherit some of
+          your parents genes that make your hair wavy or your eyes brown.
+        </p>
+        <img src="/assets/img/cover-crayon-shin-chan.jpg" alt="" />
+        <p>
+          Let's take a look at the picture above, Nohara Shinosuke inherit his father's eyebrows and his sister imawari shinosuke inherit her mother eyebrows. On inheritance method, we can use parent attributes to the child. Let's take a
+          look at picture below.
+        </p>
+        <img src="/assets/img/inheritance1.png" alt="" />
+        <p>We have Shinchan father here as parent class that have attributes name and age. How about Shinchan? we can make the child class that inherit parent class attributes like this picture below.</p>
+        <img src="/assets/img/inheritance2.png" alt="" />
+        <p>
+          We have child class that inherit parent attributes but with additional. To make child class inherit parent class attributes, we can use <code style="font-family: monospace">super(name, age)</code> so child class can use parent
+          attributes.
+        </p>
+      </div>
+      <div>
+        <h1><i>Polymorphism</i></h1>
+        <p>
+          Now we have our second pillar called Polymorphism, means <b><i>“many forms”.</i></b> It allows us to define more than one way to do something, either by using a different process for it or by using different parts to do it. Using
+          inheritance, objects can override shared parent behaviors, with specific child behaviors. Polymorphism allows the same method to execute different behaviors in two ways: method overriding and method overloading. So let's see how
+          Polymorphism work from the picture below.
+        </p>
+        <img src="/assets/img/polymorphism1.png" alt="" />
+        <p>
+          From the picture, we can see parent class have a method called greet and child class can use it different way while parent's greet say <code style="font-family: monospace">Hello ${this.name}, good morning.</code> but we can use
+          differntly for the child class and become <code style="font-family: monospace">Hello good morning, my name is ${this.name}.</code>
+        </p>
+      </div>
+      <div>
+        <h1><i>Encapsulation</i></h1>
+        <p>
+          The third pillar is Encapsulation refers to <b><i>binding properties with functions.</i></b> We are working with an Objects interface without considering the implementation details. Sometimes encapsulation refers to hiding of data
+          or data Abstraction which means representing essential features hiding the background detail. Attributes and behaviors are defined by code inside the class template.
+        </p>
+      </div>
+      <div>
+        <h1><i>Abstraction</i></h1>
+        <p>
+          And now the last pillar is Abstraction, means
+          <b><i>hiding the details from the outside world.</i></b> Abstraction means that the user interacts with only selected attributes and methods of an object. Abstraction uses simplified, high level tools, to access a complex object.
+          Abstraction means that the user interacts with only selected attributes and methods of an object. Abstraction uses simplified, high level tools, to access a complex object.
+        </p>
+      </div>
+      <div>
+        <h1><i>Conclusion</i></h1>
+        <p>
+          Designing OOP is like designing a septic tank. You know it's going to get filled with crap, but the goal is to keep the crap safely contained so it doesn't contaminate everything around it. If the OOP design is leaking someone's
+          sewage then it's a failed design.
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p></p>
+    </div>
+  </body>
+</html>
