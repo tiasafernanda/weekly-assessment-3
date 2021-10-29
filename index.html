@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OOP's Metaphor</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
     <link rel="stylesheet" href="/assets/style.css" />
   </head>
   <body>
@@ -46,7 +47,7 @@
 
     <!-- Content -->
     <div class="content">
-      <div>
+      <div id="inheritance">
         <h1><i>Inheritance</i></h1>
         <p>
           Let's talk about our first pillar of OOP, it's called Inheritance. Inheritance allows classes extend attributes and behaviors to child classes and <b><i>inheritance supports reusability.</i></b> If basic attributes and behaviors
@@ -66,7 +67,7 @@
           attributes.
         </p>
       </div>
-      <div>
+      <div id="polymorphism">
         <h1><i>Polymorphism</i></h1>
         <p>
           Now we have our second pillar called Polymorphism, means <b><i>“many forms”.</i></b> It allows us to define more than one way to do something, either by using a different process for it or by using different parts to do it. Using
@@ -79,14 +80,14 @@
           differntly for the child class and become <code style="font-family: monospace">Hello good morning, my name is ${this.name}.</code>
         </p>
       </div>
-      <div>
+      <div id="encapsulation">
         <h1><i>Encapsulation</i></h1>
         <p>
           The third pillar is Encapsulation refers to <b><i>binding properties with functions.</i></b> We are working with an Objects interface without considering the implementation details. Sometimes encapsulation refers to hiding of data
           or data Abstraction which means representing essential features hiding the background detail. Attributes and behaviors are defined by code inside the class template.
         </p>
       </div>
-      <div>
+      <div id="abstraction">
         <h1><i>Abstraction</i></h1>
         <p>
           And now the last pillar is Abstraction, means
@@ -104,8 +105,33 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer">
-      <p></p>
-    </div>
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div class="footer__socials">
+            <a href="https://www.facebook.com/tiasa.putra/" target="_blank" class="footer__social">
+              <i class="uil uil-facebook"></i>
+            </a>
+
+            <a href="https://www.instagram.com/_tiasafernanda/" target="_blank" class="footer__social">
+              <i class="uil uil-instagram"></i>
+            </a>
+
+            <a href="https://twitter.com/tiasafernanda" target="_blank" class="footer__social">
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">Tiasa &#169; Copyright 2021 reserved</p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-double-up scrollup__icon"></i>
+    </a>
+    <!--==================== MAIN JS ====================-->
+    <script src="/assets/index.js"></script>
   </body>
 </html>
